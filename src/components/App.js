@@ -29,7 +29,7 @@ class App extends Component {
 				<div className='navbar-fixed'>
 					<nav>
 						<div className='nav-wrapper indigo lighten-4'>
-							<a href='#' className='bran-logo center'>
+							<a href='/' className='bran-logo center'>
 								News Feed
 							</a>
 						</div>
@@ -41,7 +41,8 @@ class App extends Component {
 						<News news={this.state.news2} />
 					</div>
 					<div className='col s4'></div>
-					<SideNews />
+					{/* Prometric */}
+					<SideNews news={this.state.news3} />
 				</div>
 			</div>
 		)
