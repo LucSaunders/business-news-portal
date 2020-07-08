@@ -25,7 +25,7 @@ class App extends Component {
 	}
 	render() {
 		return (
-			<div className='container-fluid'>
+			<div className='containwer-fluid'>
 				<div className='navbar-fixed'>
 					<nav>
 						<div className='nav-wrapper indigo lighten-4'>
@@ -40,9 +40,9 @@ class App extends Component {
 						<News news={this.state.news1} />
 						<News news={this.state.news2} />
 					</div>
-					<div className='col s4'></div>
-					{/* Prometric */}
-					<SideNews news={this.state.news3} />
+					<div className='col s4'>
+						<SideNews news={this.state.news3} />
+					</div>
 				</div>
 			</div>
 		)
